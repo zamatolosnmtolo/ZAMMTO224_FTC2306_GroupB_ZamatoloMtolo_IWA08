@@ -13,7 +13,7 @@ const sarahPostal = '0310'
 
 // Only change below this line
 
-const leo {
+const leo = {
 	name = leoName, // leoSurname doesn't exist
 	balance = leoBalance
 	"access id" : "47afb389-8014-4d0b-aff3-e40203d2107f"
