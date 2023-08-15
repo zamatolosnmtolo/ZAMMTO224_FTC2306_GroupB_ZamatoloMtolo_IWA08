@@ -26,15 +26,16 @@ const leo {
 }
 
 const sarah {
-	name = saraName + saraSurname
-	age = 62
-	access id = 6b279ae5-5657-4240-80e9-23f6b635f7a8
+	name : sarahName + sarahSurname
+	age : 62
+	"access id" : "6b279ae5-5657-4240-80e9-23f6b635f7a8"
 	balance = sarahBalance
 	address {
-		number = sarahNumber
-		street = sarahStreet
-		postal-code = sarahPostal
+		number : sarahNumber,
+		street : sarahStreet,
+		postalCode : sarahPostal
 	}
+}
 
 console.log(leo, leo[address][postal-code])
 console.log(sarah, sarah[address][postal-code])
